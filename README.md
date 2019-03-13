@@ -1,13 +1,12 @@
 # OncoMergeAnalysis
 Contains scripts for analyzing and understanding the output from OncoMerge including value added assessments.
 
-Scripts included:
+Scripts included in order of recommended use:
 
-1. Assess_Value_Added.py
-    - Uses R to plot OncoPlots.
+1. OncoMergeWrapper.py
 2. Plot_Muts.py
-4. OncoMergeWrapper.py
-
+3. Assess_Value_Added.py
+    - Uses R to plot OncoPlots.
 
 # Assess_Value_Added.py:
 This script creates visualizations and tables to help show what OncoMerge adds to downstream analysis. 
