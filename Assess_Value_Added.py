@@ -21,8 +21,8 @@ reinfdf = pd.DataFrame([],columns = ['Delta','Cancers'])
 recovdf = pd.DataFrame([],columns = ['Delta','Cancers'])
 cancers = sorted(['UCS', 'SKCM', 'KICH','ESCA','ACC','DLBC','READ','COAD','GBM','LGG','PCPG','BLCA','UCEC','THCA','CESC','THYM','LIHC','CHOL','HNSC','UVM','PAAD','TGCT','LUSC','MESO','OV','SARC','KIRP','STAD','PRAD','LUAD','BRCA','KIRC'])
 glofs = {}
-OncoMerged_File = 'output/GLoF_Violins/MutFile/'+cancer+'_deepFilteredMutFile.csv'
 for cancer in cancers:
+    OncoMerged_File = 'output/GLoF_Violins/MutFile/'+cancer+'_deepFilteredMutFile.csv'
     print('Pulling in info for ' + cancer)
     #1a. parses OncoMerged_File
     with open(OncoMerged_File, 'r') as inFile:
